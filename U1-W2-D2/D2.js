@@ -1,0 +1,465 @@
+Ernesto
+ernesto4311
+
+Ernesto — 28/11/2025 11:04
+Devo fa tutto fdra mi devo muovere
+MrElliott25 — 28/11/2025 11:04
+Io ancora mi devo alzare dal letto
+Ernesto — 28/11/2025 11:04
+me ne voglio anda
+MrElliott25 — 28/11/2025 11:04
+E ho capito fra sei un mostro
+Ernesto — 28/11/2025 11:12
+te lo passo stronzo
+hahahaa
+/* Your styles here */
+/* E PEKKEH */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+Mostra
+style.css
+1 KB
+MrElliott25 — 28/11/2025 11:13
+No tranqui erne devo farlo da solo purtroppo altrimenti non lo capisco
+Col css
+Sono una sega
+È arrivato il momento di imparare
+MrElliott25 — 28/11/2025 17:24
+https://link.clashroyale.com/invite/friend/it?tag=QVUQRPP&token=cmnkzfh8&platform=android
+Richiesta di amicizia - Clash Royale
+Apri il link in Clash Royale o scarica il gioco.
+Richiesta di amicizia - Clash Royale
+MrElliott25 — Ieri alle 09:03
+Buongiorno Fra
+Immagine
+Ernesto — Ieri alle 09:03
+guarda la cam
+fra
+stavo scrivendo
+MrElliott25 — Ieri alle 09:03
+Guardo guardo bro
+Fra smettila di provare a rimorchiarmi
+Prima o poi ci riuscirai
+Ernesto — Ieri alle 09:04
+Fra giuseppe tavella punta di diamante
+hahahahahahaha
+MrElliott25 — Ieri alle 09:04
+Er pipita
+Im batman
+Immagine
+I live in the shadows
+Ernesto — Ieri alle 11:18
+Fra
+Devo cacare avvisa quando tona
+Torna
+MrElliott25 — Ieri alle 11:18
+Certo fratm
+Ernesto — Ieri alle 11:19
+MrElliott25 — Ieri alle 11:25
+Tornato fra
+COMO LO MUEVE MUEVE LOOOO
+Torna torna
+CACA TOSTO
+Ernesto — Ieri alle 11:26
+Gg
+MrElliott25 — 09:02
+Buongiorno o frat
+Immagine
+Ernesto — 09:02
+fratm
+MrElliott25 — 09:11
+Come è possibile che ogni volta che ti guardo la cam stai mangiando dio bono
+Ernesto — 12:57
+ma t riend cont o n o
+MrElliott25 — 12:57
+c re
+Ernesto — 12:57
+queto ha chiesto la stessa cosa tre volte
+dio cane
+non ce la faccio piu
+basta
+MrElliott25 — 12:57
+Ah no ho smesso di ascoltare quando parla lui
+Sincero
+Ernesto — 12:57
+porco dio
+ma come si muta
+MrElliott25 — 12:57
+MI PIACCIONO
+Ma come fai
+Psicologia inversa, dice che gli piace per non mettergli le mani al collo
+Ernesto — 16:20
+Fra
+ma tu hai fatto l'esercizio?
+MrElliott25 — 16:21
+Sto correggendo una parte ma si ho fatto tutto
+Ernesto — 16:21
+Fra potresti farmi un piaceer
+me li puoi passare un'attimo
+MrElliott25 — 16:21
+/* ESERCIZIO 1
+ Scrivi un algoritmo per trovare il più grande tra due numeri interi.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+let x = window.prompt("inserisci un numero");
+let y = window.prompt("inserisci un altro numero");
+if (x > y) {
+  console.log("Il numero più grande è " + x);
+} else if (y > x) {
+  console.log("Il numero più grande è " + y);
+} else {
+  console.log("I due numeri sono uguali");
+}
+
+/* ESERCIZIO 2
+  Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+x = window.prompt("Inserire un numero intero per l'esercizio 2");
+if (x != 5) {
+  console.log("not equal");
+} else console.log("equal");
+
+/* ESERCIZIO 3
+  Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+x = window.prompt("Inserire un numero per l'esercizio 3");
+if (x % 5 == 0) {
+  console.log("divisibile per 5");
+} else console.log("non divisibile per 5");
+
+/* ESERCIZIO 4
+  Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+x = window.prompt("Inserire un numero intero per l'esercizio 4");
+y = window.prompt("Inserire un altro numero intero per l'esercizio 4");
+if (x == 8 || y == 8) {
+  console.log("Il valore di uno dei due numeri appena inserito è 8");
+} else if (x + y == 8) {
+  console.log("La somma dei due numeri è 8");
+}
+
+if (x > y) {
+  if (x - y == 8) {
+    console.log("La sottrazione dei due numeri è 8");
+  }
+} else if (y - x == 8) {
+  console.log("La sottrazione dei due numeri è 8");
+}
+/* ESERCIZIO 5
+  Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
+  C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
+  Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+let totalShoppingCart = window.prompt("Inserisci quanto stai spendendo per l'esercizio 5");
+if (totalShoppingCart > 50) {
+  console.log("GOMBLIMENDI! Spedizione gratuita, il totale da pagare è solo " + totalShoppingCart);
+} else {
+  totalShoppingCart += 10;
+  console.log("Il totale da pagare compreso di spedizione è: " + totalShoppingCart);
+}
+
+/* ESERCIZIO 6
+  Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
+  Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+totalShoppingCart = window.prompt("Inserisci quanto stai spendendo per l'esercizio 6");
+totalShoppingCart = totalShoppingCart - totalShoppingCart * 0.2;
+if (totalShoppingCart > 50) {
+  console.log("GOMBLIMENDI! Spedizione gratuita, il totale da pagare è solo " + totalShoppingCart);
+} else {
+  totalShoppingCart = parseInt(totalShoppingCart);
+  totalShoppingCart += 10;
+  console.log("Il totale da pagare compreso di spedizione è: " + totalShoppingCart);
+}
+
+/* ESERCIZIO 7
+  Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
+  Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
+  Alla fine mostra il risultato in console.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+... (143 righe a disposizione)
+Riduci
+message.txt
+8 KB
+Ernesto — 16:22
+io non stavo a casa non l'ho potuto fare
+grazie fra ti amo
+MrElliott25 — 16:22
+L'esercizio dello shopping cart non funziona benissimo
+Ernesto — 16:22
+grazie mille
+MrElliott25 — 16:22
+Devo capire il problema
+﻿
+🕊️KA KAH
+MrElliott25
+mrelliott25
+ 
+ 
+ 
+/* ESERCIZIO 1
+ Scrivi un algoritmo per trovare il più grande tra due numeri interi.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+let x = window.prompt("inserisci un numero");
+let y = window.prompt("inserisci un altro numero");
+if (x > y) {
+  console.log("Il numero più grande è " + x);
+} else if (y > x) {
+  console.log("Il numero più grande è " + y);
+} else {
+  console.log("I due numeri sono uguali");
+}
+
+/* ESERCIZIO 2
+  Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+x = window.prompt("Inserire un numero intero per l'esercizio 2");
+if (x != 5) {
+  console.log("not equal");
+} else console.log("equal");
+
+/* ESERCIZIO 3
+  Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+x = window.prompt("Inserire un numero per l'esercizio 3");
+if (x % 5 == 0) {
+  console.log("divisibile per 5");
+} else console.log("non divisibile per 5");
+
+/* ESERCIZIO 4
+  Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+x = window.prompt("Inserire un numero intero per l'esercizio 4");
+y = window.prompt("Inserire un altro numero intero per l'esercizio 4");
+if (x == 8 || y == 8) {
+  console.log("Il valore di uno dei due numeri appena inserito è 8");
+} else if (x + y == 8) {
+  console.log("La somma dei due numeri è 8");
+}
+
+if (x > y) {
+  if (x - y == 8) {
+    console.log("La sottrazione dei due numeri è 8");
+  }
+} else if (y - x == 8) {
+  console.log("La sottrazione dei due numeri è 8");
+}
+/* ESERCIZIO 5
+  Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
+  C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
+  Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+let totalShoppingCart = window.prompt("Inserisci quanto stai spendendo per l'esercizio 5");
+if (totalShoppingCart > 50) {
+  console.log("GOMBLIMENDI! Spedizione gratuita, il totale da pagare è solo " + totalShoppingCart);
+} else {
+  totalShoppingCart += 10;
+  console.log("Il totale da pagare compreso di spedizione è: " + totalShoppingCart);
+}
+
+/* ESERCIZIO 6
+  Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
+  Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+totalShoppingCart = window.prompt("Inserisci quanto stai spendendo per l'esercizio 6");
+totalShoppingCart = totalShoppingCart - totalShoppingCart * 0.2;
+if (totalShoppingCart > 50) {
+  console.log("GOMBLIMENDI! Spedizione gratuita, il totale da pagare è solo " + totalShoppingCart);
+} else {
+  totalShoppingCart = parseInt(totalShoppingCart);
+  totalShoppingCart += 10;
+  console.log("Il totale da pagare compreso di spedizione è: " + totalShoppingCart);
+}
+
+/* ESERCIZIO 7
+  Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
+  Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
+  Alla fine mostra il risultato in console.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+x = window.prompt("Inserisci un numero per l'esercizio 7");
+y = window.prompt("Inserisci un altro numero per l'esercizio 7");
+let z = window.prompt("Inserisci un ultimo numero per l'esercizio 7");
+if ((x == y) == z) {
+  console.log("I tre numeri sono uguali");
+} else {
+  if (x > y) {
+    if (y > z) {
+      console.log("I numeri in ordine sono : " + x + "," + y + "," + z);
+    } else console.log("I numeri in ordine sono : " + x + "," + z + "," + y);
+  }
+  if (y > z && y >= x) {
+    if (z > x) {
+      console.log("I numeri in ordine sono : " + y + "," + z + "," + x);
+    } else console.log("I numeri in ordine sono : " + y + "," + x + "," + z);
+  }
+  if (z > y && z >= x) {
+    if (y > x) {
+      console.log("I numeri in ordine sono : " + z + "," + y + "," + x);
+    } else console.log("I numeri in ordine sono : " + z + "," + x + "," + y);
+  }
+}
+
+/* ESERCIZIO 8
+  Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+let input = window.prompt("Inserire qualsiasi valore per l'esercizio 8");
+if (typeof parseInt(input) == "number") {
+  console.log("Il valore inserito è un numero");
+} else console.log("Il valore inserito non è un numero");
+
+/* ESERCIZIO 9
+  Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+x = window.prompt("Inserire un numero per l'esercizio 9");
+if (x % 2 == 0) {
+  console.log("Il numero fornito è pari");
+} else console.log("Il numero fornito è dispari");
+
+/* ESERCIZIO 10
+  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
+  let val = 7
+  if (val < 10) {
+      console.log("Meno di 10");
+    } else if (val < 5) {
+      console.log("Meno di 5");
+    } else {
+      console.log("Uguale a 10 o maggiore");
+    }
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+let val = 0;
+if (val < 10 && val >= 5) {
+  console.log("Meno di 10");
+} else if (val < 5) {
+  console.log("Meno di 5");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
+
+/* ESERCIZIO 11
+  Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
+*/
+
+// const me = {
+//   name: "John",
+//   lastName: "Doe",
+//   skills: ["javascript", "html", "css"],
+// };
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+const me = {
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
+
+me.city = "Toronto";
+console.log(me.city);
+
+/* ESERCIZIO 12
+  Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+let appoggio = me.lastName;
+delete me.lastName;
+console.log("Il valore cancellato è " + appoggio);
+
+/* ESERCIZIO 13
+  Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+appoggio = me.skills[me.skills.length - 1];
+me.skills.pop();
+console.log("Il valore cancellato è " + appoggio);
+
+console.table(me);
+
+/* ESERCIZIO 14
+  Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+const array = [];
+for (let i = 1; i <= 10; i++) {
+  array.push(i); //equivale a fare le righe array.push("numero") x volte, la mia è pigrizia
+}
+console.log("array", array);
+
+// array.push(1);
+// array.push(2);
+// array.push(3);
+// array.push(4);
+// array.push(5);  ho preso voglia e l'ho scritto
+// array.push(6);
+// array.push(7);
+// array.push(8);
+// array.push(9);
+// array.push(10);
+
+/* ESERCIZIO 15
+Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+array.pop();
+array.push(100);
+console.log("array", array);
+message.txt
+8 KB
